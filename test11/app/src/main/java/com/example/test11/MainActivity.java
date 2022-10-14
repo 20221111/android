@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //New account 클릭시 sign up 페이지로 이동
         Button NewAccount = findViewById(R.id.NewAccount);
         NewAccount.setOnClickListener(new View.OnClickListener(){
 
