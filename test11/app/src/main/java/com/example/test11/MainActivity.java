@@ -2,6 +2,7 @@ package com.example.test11;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,5 +25,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button ForgotPassword = findViewById(R.id.ForgotPassword);
+        ForgotPassword.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(getApplicationContext(), Forgot_Password.class);
+                startActivity(intent);
+            }
+        });
         }
-}
+    }

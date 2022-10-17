@@ -26,6 +26,7 @@
                 android:value="" />
         </activity>
         <activity android:name=".Create_Account"/>
+        <activity android:name=".Forgot_Password"/>
     </application>
 
 </manifest>
