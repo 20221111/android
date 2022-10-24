@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //ForgotPassword 클릭시 forgotpassword 페이지로 이동
-        Button ForgotPassword = findViewById(R.id.ForgotPassword);
+        ImageButton ForgotPassword = (ImageButton) findViewById(R.id.ForgotPassword);
         ForgotPassword.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
